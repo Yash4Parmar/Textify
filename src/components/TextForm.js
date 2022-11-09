@@ -48,8 +48,8 @@ export default function TextForm(props) {
             </div>
             <div className="container" style={{ color: props.mode === "dark" ? "white" : "black" }}>
                 <h2>Words summary</h2>
-                <p>Word count: {text.split(/\s/).filter((ele) => { return ele.length != 0 }).length}<p>
-                </p>Character count: {text.length}</p>
+                <p>Word count: {text.split(/\s/).filter((ele) => { return ele.length != 0 }).length}</p>
+                <p>Character count: {text.length}</p>
                 <p>Mintutes to read: {0.08 * text.split(" ").length}</p>
                 <h2>Preview</h2>
                 <p>{text.length > 0 ? text : "Enter text into text box"}</p>
