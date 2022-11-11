@@ -80,10 +80,10 @@ class SpeedTest extends Component {
                 backgroundColor: this.props.mode === "dark" ? "black" : "white",
                 color: this.props.mode === "dark" ? "white" : "black"
             }}>
-                <h1 style={{
+                {/* <h1 style={{
                     marginLeft: "332px",
                     marginBottom: "26px"
-                }}>Take your typing speed test</h1>
+                }}>Take your typing speed test</h1> */}
                 <div className="row">
                     <div className="col-md-6 offset-md-3">
                         <Preview text={this.state.text} userInput={this.state.userInput} mode={this.props.mode} />
