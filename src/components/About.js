@@ -23,7 +23,7 @@ export default function About(props) {
                         </h2>
                         <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                             <div className="accordion-body">
-                                <strong>Textify - Textify  is a free tool that provides instant character count & word count statistics for a given text. This tool reports the number of character with spaces and without spaces, also the number of words and sentences... Character Count Tool - Character Counter monitors and reports the character counts & word counts of the text that you type in real time. Thus it is suitable for writing text with word/ character limit.</strong>
+                                <strong>Textify - It  is a free tool that provides instant character count & word count statistics for a given text. This tool reports the number of character with spaces and without spaces, also the number of words and sentences... Character Count Tool - Character Counter monitors and reports the character counts & word counts of the text that you type in real time. Thus it is suitable for writing text with word/ character limit.</strong>
                             </div>
                         </div>
                     </div>
