@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default (props) => {
+function CalculateSpeed(props) {
 
     if (props.symbols !== 0 && props.sec !== 0) {
         const wpm = (props.symbols / 5) / (props.sec / 60);
@@ -14,3 +14,4 @@ export default (props) => {
 
     return null;
 }
+export default CalculateSpeed
