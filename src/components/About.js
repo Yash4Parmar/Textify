@@ -9,7 +9,7 @@ export default function About(props) {
             }}>
                 <h1>About</h1>
                 <div className="accordion" id="accordionExample" >
-                    <div className="accordion-item" style={{
+                    <div className="accordion-item " style={{
                         backgroundColor: props.mode === "dark" ? "black" : "white",
                         color: props.mode === "dark" ? "white" : "black"
                     }}>
@@ -54,21 +54,17 @@ export default function About(props) {
                                 backgroundColor: props.mode === "dark" ? "black" : "white",
                                 color: props.mode === "dark" ? "white" : "black"
                             }} type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                FAQ
+                                about Me
                             </button>
                         </h2>
                         <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                             <div className="accordion-body">
-                                <p><strong> What is counted as a difficult word?</strong><br />
-                                    A word that is not listed in the list of 3000 simple words. You can have the general word statistics using this character counter. <br />
-                                    <strong> Definition of the Readability level?</strong><br />
-                                    This level is measured by the Dale-Chall Formula. <br />
-                                    <strong>What is the Estimated Reading Time?</strong><br />
-                                    Estimated based on an average reading time of 200 words per minute. <br />
-                                    <strong>What is the Estimated Speaking Time?</strong><br />
-                                    Estimated based on an average speaking time of 125 words per minute.</p>
+                                <a rel="noreferrer" target={"_blank"} href="https://www.linkedin.com/in/-yash-parmar/"> Yash Parmar</a>
+                                <br />
+                                <a rel="noreferrer" target={"_blank"} href="https://github.com/Yash4Parmar"> GitHub</a>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div >

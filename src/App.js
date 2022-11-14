@@ -8,7 +8,6 @@ import ShowAlert from './components/ShowAlert';
 import TextForm from './components/TextForm';
 import Contact from './components/Contact';
 import SpeedTest from './components/SpeedTest';
-
 function App() {
 
   const [mode, setMode] = useState("light")
