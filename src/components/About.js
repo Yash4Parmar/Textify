@@ -59,12 +59,11 @@ export default function About(props) {
                         </h2>
                         <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                             <div className="accordion-body">
-                                <a rel="noreferrer" target={"_blank"} href="https://www.linkedin.com/in/-yash-parmar/"> Yash Parmar</a>
+                                <a rel="noreferrer" target={"_blank"} href="https://www.linkedin.com/in/-yash-parmar/">Linkedin</a>
                                 <br />
                                 <a rel="noreferrer" target={"_blank"} href="https://github.com/Yash4Parmar"> GitHub</a>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div >
